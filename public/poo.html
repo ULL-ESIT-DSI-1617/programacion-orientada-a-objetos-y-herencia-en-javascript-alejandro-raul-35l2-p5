@@ -493,7 +493,7 @@ fatRabbit.speak(<span class="hljs-string">&quot;I could sure use a carrot right 
 <span class="hljs-comment">// &#x2192; The fat rabbit says &apos;I could sure use a carrot</span>
 <span class="hljs-comment">//   right now.&apos;</span>
 </code></pre>
-<p>El c&#xF3;digo utiliza la palabra clave <strong>this</strong> para dar salida al tipo de conejo que est&#xE1; hablando. Recuerde que los m&#xE9;todos <strong>apply</strong> y <strong>bind</strong> toman un primer argumento que se puede utilizar para simular llamadas de m&#xE9;todo, de hecho este primer argumento se utiliza para darle un valor a <strong>this</strong>.</p>
+<p>El c&#xF3;digo utiliza la palabra clave <strong>this</strong> para dar salida al tipo de rabbit que est&#xE1; hablando. Recuerde que los m&#xE9;todos <strong>apply</strong> y <strong>bind</strong> toman un primer argumento que se puede utilizar para simular llamadas de m&#xE9;todo, de hecho este primer argumento se utiliza para darle un valor a <strong>this</strong>.</p>
 <h2 id="prototipos">Prototipos</h2>
 <pre><code class="lang-js"><span class="hljs-keyword">var</span> empty = {};
 <span class="hljs-built_in">console</span>.log(empty.toString);
@@ -510,7 +510,7 @@ fatRabbit.speak(<span class="hljs-string">&quot;I could sure use a carrot right 
 <span class="hljs-comment">// &#x2192; null</span>
 </code></pre>
 <p>Las relaciones prototipos de objetos JavaScript forman una estructura en forma de &#xE1;rbol, y en la ra&#xED;z de esta estructura se encuentra el <strong>Object.prototype</strong> que proporciona algunos m&#xE9;todos que aparecen en todos los objetos.</p>
-<p>Muchos objetos no tienen directamente el <strong>Object.prototype</strong> como su prototipo, sino que tienen otro objeto, que proporciona sus propias propiedades predeterminadas. Las funciones derivan de <strong>Function.prototype</strong>, y loa arrays se derivan por ejemplo de <strong>Array.prototype</strong>.</p>
+<p>Muchos objetos no tienen directamente el <strong>Object.prototype</strong> como su prototipo, sino que tienen otro objeto, que proporciona sus propias propiedades predeterminadas. Las funciones derivan de <strong>Function.prototype</strong>, y los arrays se derivan por ejemplo de <strong>Array.prototype</strong>.</p>
 <pre><code class="lang-js"><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Object</span>.getPrototypeOf(<span class="hljs-built_in">isNaN</span>) ==
             <span class="hljs-built_in">Function</span>.prototype);
 <span class="hljs-comment">// &#x2192; true</span>
@@ -518,7 +518,7 @@ fatRabbit.speak(<span class="hljs-string">&quot;I could sure use a carrot right 
             <span class="hljs-built_in">Array</span>.prototype);
 <span class="hljs-comment">// &#x2192; true</span>
 </code></pre>
-<p>El objeto prototipo tendr&#xE1; por s&#xED; mismo un prototipo, a menudo <strong>Object.prototype</strong>, de modo que todav&#xED;a indirectamente proporciona m&#xE9;todos como toString.</p>
+<p>El objeto prototipo tendr&#xE1; por s&#xED; mismo un prototipo, a menudo <strong>Object.prototype</strong>, de modo que todav&#xED;a indirectamente proporciona m&#xE9;todos como <strong>toString</strong>.</p>
 <p>La funci&#xF3;n <strong>Object.getPrototypeOf</strong> obviamente devuelve el prototipo de un objeto. Puede utilizar <strong>Object.create</strong> para crear un objeto espec&#xED;fico.</p>
 <pre><code class="lang-js"><span class="hljs-keyword">var</span> protoRabbit = {
   speak: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">line</span>) </span>{
@@ -643,7 +643,7 @@ honda.stop();
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"12. POO y Herencia en Javascript","level":"1.13","depth":1,"next":{"title":"Metodos","level":"1.13.1","depth":2,"anchor":"#metodos","path":"poo.md","ref":"poo.md#metodos","articles":[]},"previous":{"title":"11. Sessions en ExpressJS","level":"1.12","depth":1,"anchor":"#sessions-en-expressjs","path":"sessionsexpress.md","ref":"sessionsexpress.md#sessions-en-expressjs","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"poo.md","mtime":"2017-03-24T01:57:52.492Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-24T01:58:18.889Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"12. POO y Herencia en Javascript","level":"1.13","depth":1,"next":{"title":"Metodos","level":"1.13.1","depth":2,"anchor":"#metodos","path":"poo.md","ref":"poo.md#metodos","articles":[]},"previous":{"title":"11. Sessions en ExpressJS","level":"1.12","depth":1,"anchor":"#sessions-en-expressjs","path":"sessionsexpress.md","ref":"sessionsexpress.md#sessions-en-expressjs","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"poo.md","mtime":"2017-03-24T04:13:45.354Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-24T04:14:09.023Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

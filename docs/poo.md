@@ -35,7 +35,7 @@ fatRabbit.speak("I could sure use a carrot right now.");
 //   right now.'
 ```
 
-El código utiliza la palabra clave **this** para dar salida al tipo de conejo que está hablando. Recuerde que los métodos **apply** y **bind** toman un primer argumento que se puede utilizar para simular llamadas de método, de hecho este primer argumento se utiliza para darle un valor a **this**.
+El código utiliza la palabra clave **this** para dar salida al tipo de rabbit que está hablando. Recuerde que los métodos **apply** y **bind** toman un primer argumento que se puede utilizar para simular llamadas de método, de hecho este primer argumento se utiliza para darle un valor a **this**.
 
 ## Prototipos
 
@@ -60,7 +60,7 @@ console.log(Object.getPrototypeOf(Object.prototype));
 
 Las relaciones prototipos de objetos JavaScript forman una estructura en forma de árbol, y en la raíz de esta estructura se encuentra el **Object.prototype** que proporciona algunos métodos que aparecen en todos los objetos.
 
-Muchos objetos no tienen directamente el **Object.prototype** como su prototipo, sino que tienen otro objeto, que proporciona sus propias propiedades predeterminadas. Las funciones derivan de **Function.prototype**, y loa arrays se derivan por ejemplo de **Array.prototype**.
+Muchos objetos no tienen directamente el **Object.prototype** como su prototipo, sino que tienen otro objeto, que proporciona sus propias propiedades predeterminadas. Las funciones derivan de **Function.prototype**, y los arrays se derivan por ejemplo de **Array.prototype**.
 
 ```js
 console.log(Object.getPrototypeOf(isNaN) ==
@@ -70,7 +70,7 @@ console.log(Object.getPrototypeOf([]) ==
             Array.prototype);
 // → true
 ```
-El objeto prototipo tendrá por sí mismo un prototipo, a menudo **Object.prototype**, de modo que todavía indirectamente proporciona métodos como toString.
+El objeto prototipo tendrá por sí mismo un prototipo, a menudo **Object.prototype**, de modo que todavía indirectamente proporciona métodos como **toString**.
 
 La función **Object.getPrototypeOf** obviamente devuelve el prototipo de un objeto. Puede utilizar **Object.create** para crear un objeto específico.
 
