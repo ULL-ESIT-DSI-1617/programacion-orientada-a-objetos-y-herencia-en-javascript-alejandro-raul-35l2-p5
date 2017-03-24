@@ -1,0 +1,682 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>12. POO y Herencia en Javascript · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="poo.html" />
+    
+    
+    <link rel="prev" href="sessionsexpress.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="nodejs.html">
+            
+                <a href="nodejs.html#nodejs">
+            
+                    
+                    1. NodeJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="git.html">
+            
+                <a href="git.html#git">
+            
+                    
+                    2. Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="github.html">
+            
+                <a href="github.html#github">
+            
+                    
+                    3. GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="atom.html">
+            
+                <a href="atom.html#atom">
+            
+                    
+                    4. Atom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="markdowngitbook.html">
+            
+                <a href="markdowngitbook.html#markdown-y-gitbook">
+            
+                    
+                    5. MarkDown y GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="ghpagesgulpfile.html">
+            
+                <a href="ghpagesgulpfile.html#gh-pages-y-gulpfile">
+            
+                    
+                    6. Gh-Pages y Gulpfile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="pandoc.html">
+            
+                <a href="pandoc.html#pandoc">
+            
+                    
+                    7. Pandoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="cloud9.html">
+            
+                <a href="cloud9.html#cloud9">
+            
+                    
+                    8. Cloud9
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="rutasexpressjs.html">
+            
+                <a href="rutasexpressjs.html#rutas-en-expressjs">
+            
+                    
+                    9. Rutas en ExpressJS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="rutasexpressjs.html">
+            
+                <a href="rutasexpressjs.html#basic-routing">
+            
+                    
+                    Basic Routing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="rutasexpressjs.html">
+            
+                <a href="rutasexpressjs.html#routing-guide">
+            
+                    
+                    Routing Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="rutasexpressjs.html">
+            
+                <a href="rutasexpressjs.html#using-middleware">
+            
+                    
+                    Using Middleware
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="rutasexpressjs.html">
+            
+                <a href="rutasexpressjs.html#routing-api-documentation">
+            
+                    
+                    Routing API Documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="cookies.html">
+            
+                <a href="cookies.html#cookies">
+            
+                    
+                    10. Cookies
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="cookies.html">
+            
+                <a href="cookies.html#usar-cookie-parser">
+            
+                    
+                    Usar Cookie-Parser
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="cookies.html">
+            
+                <a href="cookies.html#sintaxis">
+            
+                    
+                    Sintaxis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="cookies.html">
+            
+                <a href="cookies.html#establecer-la-cookie-de-tiempo-de-espera">
+            
+                    
+                    Establecer la Cookie de tiempo de espera
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="cookies.html">
+            
+                <a href="cookies.html#eliminar-la-cookie-existente">
+            
+                    
+                    Eliminar la cookie existente
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="sessionsexpress.html">
+            
+                <a href="sessionsexpress.html#sessions-en-expressjs">
+            
+                    
+                    11. Sessions en ExpressJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="poo.html">
+            
+                <a href="poo.html#poo-y-herencia-en-javascript">
+            
+                    
+                    12. POO y Herencia en Javascript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="poo.html">
+            
+                <a href="poo.html#metodos">
+            
+                    
+                    Metodos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="poo.html">
+            
+                <a href="poo.html#prototipos">
+            
+                    
+                    Prototipos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="poo.html">
+            
+                <a href="poo.html#herencia">
+            
+                    
+                    Herencia
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >12. POO y Herencia en Javascript</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="poo-y-herencia-en-javascript">POO y Herencia en Javascript</h1>
+<p>La programaci&#xF3;n orientada a objetos comienza como todas las historias de programaci&#xF3;n, por un problema de complejidad. Abordandolo desde una de las filosof&#xED;as nos dice que la complejidad puedes manejarla separ&#xE1;ndola entre peque&#xF1;os compartimentos que est&#xE1;n aislados entre s&#xED;. Estos compartimentos han acabado llam&#xE1;ndose <strong>objetos</strong>.
+Un objeto es una c&#xE1;scara dura que oculta la complejidad pegajosa dentro de ella y nos ofrece en cambio algunos botones y conectores (como los m&#xE9;todos) que presentan una interfaz a trav&#xE9;s de la cual el objeto va a ser utilizado. La idea es que la interfaz es relativamente simple y todas las cosas complejas que ocurren dentro del objeto pueden ser ignoradas cuando se trabaja con &#xE9;l.</p>
+<h2 id="metodos">Metodos</h2>
+<p>Los m&#xE9;todos son simplemente propiedades que contienen valores de funciones. Esto ser&#xED;a un ejemplo de un m&#xE9;todo</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rabbit = {};
+rabbit.speak = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">line</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;The rabbit says &apos;&quot;</span> + line + <span class="hljs-string">&quot;&apos;&quot;</span>);
+};
+
+rabbit.speak(<span class="hljs-string">&quot;I&apos;m alive.&quot;</span>);
+<span class="hljs-comment">// &#x2192; The rabbit says &apos;I&apos;m alive.&apos;</span>
+</code></pre>
+<p>Normalmente un m&#xE9;todo necesita hacer algo con el objeto en el que ha sido llamado. Cuando una funci&#xF3;n es llamada como un m&#xE9;todo se mira como una propiedad y inmediatamente es llamada como en <strong>object.method()</strong>, la variable especial <strong>this</strong> en el cuerpo apuntar&#xE1; al objeto por el cu&#xE1;l fue llamado.</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">speak</span>(<span class="hljs-params">line</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;The &quot;</span> + <span class="hljs-keyword">this</span>.type + <span class="hljs-string">&quot; rabbit says &apos;&quot;</span> +
+              line + <span class="hljs-string">&quot;&apos;&quot;</span>);
+}
+<span class="hljs-keyword">var</span> whiteRabbit = {type: <span class="hljs-string">&quot;white&quot;</span>, speak: speak};
+<span class="hljs-keyword">var</span> fatRabbit = {type: <span class="hljs-string">&quot;fat&quot;</span>, speak: speak};
+
+whiteRabbit.speak(<span class="hljs-string">&quot;Oh my ears and whiskers, &quot;</span> +
+                  <span class="hljs-string">&quot;how late it&apos;s getting!&quot;</span>);
+<span class="hljs-comment">// &#x2192; The white rabbit says &apos;Oh my ears and whiskers, how</span>
+<span class="hljs-comment">//   late it&apos;s getting!&apos;</span>
+fatRabbit.speak(<span class="hljs-string">&quot;I could sure use a carrot right now.&quot;</span>);
+<span class="hljs-comment">// &#x2192; The fat rabbit says &apos;I could sure use a carrot</span>
+<span class="hljs-comment">//   right now.&apos;</span>
+</code></pre>
+<p>El c&#xF3;digo utiliza la palabra clave <strong>this</strong> para dar salida al tipo de conejo que est&#xE1; hablando. Recuerde que los m&#xE9;todos <strong>apply</strong> y <strong>bind</strong> toman un primer argumento que se puede utilizar para simular llamadas de m&#xE9;todo, de hecho este primer argumento se utiliza para darle un valor a <strong>this</strong>.</p>
+<h2 id="prototipos">Prototipos</h2>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> empty = {};
+<span class="hljs-built_in">console</span>.log(empty.toString);
+<span class="hljs-comment">// &#x2192; function toString(){&#x2026;}</span>
+<span class="hljs-built_in">console</span>.log(empty.toString());
+<span class="hljs-comment">// &#x2192; [object Object]</span>
+</code></pre>
+<p>Mirando atentamente el c&#xF3;digo nos damos cuenta que saca una propiedad de un objeto vac&#xED;o, pero realmente no es as&#xED; ya que, todos los objetos tienen un prototipo. Un prototipo es otro objeto que se utiliza como una fuente alternativa de propiedades. Cuando un objeto obtiene una solicitud para una propiedad que no tiene, se buscar&#xE1; su prototipo para la propiedad, entonces se obtendr&#xE1; el prototipo del prototipo y as&#xED; sucesivamente.</p>
+<p>Entonces en este caso el prototipo del objeto vac&#xED;o es el gran prototipo ancestral, la entidad que se encuentra detr&#xE1;s de casi todos los objetos <strong>Object.prototype</strong>.</p>
+<pre><code class="lang-js"><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Object</span>.getPrototypeOf({}) ==
+            <span class="hljs-built_in">Object</span>.prototype);
+<span class="hljs-comment">// &#x2192; true</span>
+<span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Object</span>.getPrototypeOf(<span class="hljs-built_in">Object</span>.prototype));
+<span class="hljs-comment">// &#x2192; null</span>
+</code></pre>
+<p>Las relaciones prototipos de objetos JavaScript forman una estructura en forma de &#xE1;rbol, y en la ra&#xED;z de esta estructura se encuentra el <strong>Object.prototype</strong> que proporciona algunos m&#xE9;todos que aparecen en todos los objetos.</p>
+<p>Muchos objetos no tienen directamente el <strong>Object.prototype</strong> como su prototipo, sino que tienen otro objeto, que proporciona sus propias propiedades predeterminadas. Las funciones derivan de <strong>Function.prototype</strong>, y loa arrays se derivan por ejemplo de <strong>Array.prototype</strong>.</p>
+<pre><code class="lang-js"><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Object</span>.getPrototypeOf(<span class="hljs-built_in">isNaN</span>) ==
+            <span class="hljs-built_in">Function</span>.prototype);
+<span class="hljs-comment">// &#x2192; true</span>
+<span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Object</span>.getPrototypeOf([]) ==
+            <span class="hljs-built_in">Array</span>.prototype);
+<span class="hljs-comment">// &#x2192; true</span>
+</code></pre>
+<p>El objeto prototipo tendr&#xE1; por s&#xED; mismo un prototipo, a menudo <strong>Object.prototype</strong>, de modo que todav&#xED;a indirectamente proporciona m&#xE9;todos como toString.</p>
+<p>La funci&#xF3;n <strong>Object.getPrototypeOf</strong> obviamente devuelve el prototipo de un objeto. Puede utilizar <strong>Object.create</strong> para crear un objeto espec&#xED;fico.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> protoRabbit = {
+  speak: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">line</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;The &quot;</span> + <span class="hljs-keyword">this</span>.type + <span class="hljs-string">&quot; rabbit says &apos;&quot;</span> +
+                line + <span class="hljs-string">&quot;&apos;&quot;</span>);
+  }
+};
+<span class="hljs-keyword">var</span> killerRabbit = <span class="hljs-built_in">Object</span>.create(protoRabbit);
+killerRabbit.type = <span class="hljs-string">&quot;killer&quot;</span>;
+killerRabbit.speak(<span class="hljs-string">&quot;SKREEEE!&quot;</span>);
+<span class="hljs-comment">// &#x2192; The killer rabbit says &apos;SKREEEE!&apos;</span>
+</code></pre>
+<p>El &quot;proto&quot; rabbit act&#xFA;a como container para las propiedades que se han compartido por todos los rabbit. Un objeto rabbit individual como el rabbit asesino por ejemplo que contiene propiedades que s&#xF3;lo se aplican a s&#xED; mismo(en este caso su tipo) y deriva propiedades compartidas de su prototipo.</p>
+<p>Para m&#xE1;s informaci&#xF3;n sobre la programaci&#xF3;n orientada a objetos en JavaScript pinche <a href="http://eloquentjavascript.net/06_object.html" target="_blank">aqu&#xED;</a></p>
+<h2 id="herencia">Herencia</h2>
+<p>Para explicar la herencia vamos a seguir un ejemplo que ilustra como se establece la herencia:</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Car</span>(<span class="hljs-params">numberOfCylinders, carType</span>)</span>{
+
+  <span class="hljs-comment">//Private member variables. They can be set only during object construction.</span>
+  <span class="hljs-keyword">var</span> type = carType;
+  <span class="hljs-keyword">var</span> cylinders = numberOfCylinders;
+  <span class="hljs-keyword">var</span> volumeOfCylinder = <span class="hljs-number">250</span>;
+
+  <span class="hljs-keyword">this</span>.getCC = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+                <span class="hljs-keyword">return</span> cylinders * volumeOfCylinder * <span class="hljs-keyword">this</span>.factor;
+              };
+
+  <span class="hljs-comment">//Public properties. These properties can be set from outside the object.</span>
+  <span class="hljs-keyword">this</span>.color = <span class="hljs-string">&apos;White&apos;</span>;
+  <span class="hljs-keyword">this</span>.sunRoof = <span class="hljs-literal">false</span>;
+  <span class="hljs-keyword">this</span>.factor = <span class="hljs-number">1</span>;
+}
+
+<span class="hljs-comment">//Shared method</span>
+Car.prototype.start = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;The car with &apos;</span> + <span class="hljs-keyword">this</span>.getCC() + 
+              <span class="hljs-string">&apos; engine and color &apos;</span> + <span class="hljs-keyword">this</span>.color + <span class="hljs-string">&apos; is starting...&apos;</span>);
+}
+
+Car.prototype.stop = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;The car has stopped&apos;</span>);
+}
+
+Car.prototype.constructor = Car;
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Sedan</span>(<span class="hljs-params">numberOfCylinder, carType</span>)</span>{
+    <span class="hljs-comment">//Calling the base constructor. All private vars and other properties are initialized. </span>
+    Car.call(<span class="hljs-keyword">this</span>, numberOfCylinder, carType);
+    <span class="hljs-comment">//Instance method. The first in the method resolution chain.</span>
+    <span class="hljs-keyword">this</span>.start = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;The Sedan with &apos;</span> + <span class="hljs-keyword">this</span>.getCC() + 
+                  <span class="hljs-string">&apos; engine and color &apos;</span> + <span class="hljs-keyword">this</span>.color + <span class="hljs-string">&apos; is starting...&apos;</span>);
+   }
+}
+
+<span class="hljs-comment">//Set the inheritance - this is the magic line</span>
+Sedan.prototype = <span class="hljs-keyword">new</span> Car();
+Sedan.prototype.constructor = Sedan;
+
+
+
+<span class="hljs-keyword">var</span> honda = <span class="hljs-keyword">new</span> Sedan(<span class="hljs-number">4</span>, <span class="hljs-string">&apos;sedan&apos;</span>);
+honda.start();
+honda.stop();
+</code></pre>
+<p>En este ejemplo se usan una clase <strong>Cars</strong> y una clase <strong>Sedan</strong></p>
+<p>Se establece la herencia de esta forma:</p>
+<pre><code class="lang-js"> Sedan.prototype = <span class="hljs-keyword">new</span> Car();
+ Sedan.prototype.constructor = Sedan;
+</code></pre>
+<p>Para llamar al constructor padre se usa <strong>Car.call</strong>:</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Sedan</span>(<span class="hljs-params">numberOfCylinder, carType</span>)</span>{
+              <span class="hljs-comment">//Calling the base constructor. All private vars and other properties are initialized. </span>
+              Car.call(<span class="hljs-keyword">this</span>, numberOfCylinder, carType);
+              <span class="hljs-comment">//Instance method. The first in the method resolution chain.</span>
+              <span class="hljs-keyword">this</span>.start = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+                               <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;The Sedan with &apos;</span> + <span class="hljs-keyword">this</span>.getCC() + <span class="hljs-string">&apos; engine and color &apos;</span> + <span class="hljs-keyword">this</span>.color + <span class="hljs-string">&apos; is starting...&apos;</span>);
+                           }
+          }
+</code></pre>
+<p>Para ver m&#xE1;s ejemplos utilizando la herencia puedes verlos en este <a href="https://github.com/SYTW/js-inheritance-examples" target="_blank">repositorio</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="sessionsexpress.html#sessions-en-expressjs" class="navigation navigation-prev " aria-label="Previous page: 11. Sessions en ExpressJS">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="poo.html#metodos" class="navigation navigation-next " aria-label="Next page: Metodos">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"12. POO y Herencia en Javascript","level":"1.13","depth":1,"next":{"title":"Metodos","level":"1.13.1","depth":2,"anchor":"#metodos","path":"poo.md","ref":"poo.md#metodos","articles":[]},"previous":{"title":"11. Sessions en ExpressJS","level":"1.12","depth":1,"anchor":"#sessions-en-expressjs","path":"sessionsexpress.md","ref":"sessionsexpress.md#sessions-en-expressjs","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"poo.md","mtime":"2017-03-24T01:57:52.492Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-24T01:58:18.889Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
