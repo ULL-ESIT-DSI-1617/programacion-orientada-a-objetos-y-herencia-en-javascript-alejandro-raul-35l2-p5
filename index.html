@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-     <title>JavaScript Temperature Converter</title>
-     <link href="css/normalize.css" rel="stylesheet" type="text/css">
-     <link href="css/mystyle.css" rel="stylesheet" type="text/css">
-
-     <script type="text/javascript" src="js/conversor.js"></script>
-  </head>
-  <body>
-    <h1>Temperature Converter</h1>
-    <table>
-      <tr>
-        <th>Enter  Temperature (examples: 32F, 45C, -2.5f):</th>
-        <td><input id="original" autofocus onchange="calculate();" placeholder="32F" size="50"></td>
-      </tr>
-      <tr>
-        <th>Converted Temperature:</th>
-        <td><span class="output" id="converted"></span></td>
-      </tr>
-    </table>
-  </body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JavaScript Temperature Converter</title>
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="css/mystyle.css" rel="stylesheet" type="text/css">
+        
+        <script type="text/javascript" src="js/conversor.js"></script>
+    </head>
+    <body>
+        <div class="separador">
+            <h1>Conversor de Temperaturas</h1>
+            <p>Con este conversor se pueden hacer conversorsiones entre las medidas de temperatura de Celsius, Farenheit y Kelvin y entre las medidas de longitud de metros y pulgadas.</p>
+            
+            
+            <label>Introduzca los datos a convertir:</label>
+            <br>
+            <input id="original" autofocus onchange="calculate();" placeholder="0.0">
+            
+            <br>
+            <label>Converted Temperature:</label>
+            <span class="output" id="converted"></span>
+            
+        </div>
+        <div class="separador">
+            <p>Se puede escribir todo seguido (23cf) o escribir uno o varios espacios entre los dígitos y los tipos, y tanto al principio como al final de la cadena ( 23  c f  ). Además también se puede escribir opcionalmente la palabra "to" entre los dos tipos de medida (23c to f). Por último, se puede escribir el tipo en maýuscula o minúscula.</p>
+            Conversiones:
+            <ul>
+                <li>Celsius to Farenheit: c|C f|F</li>
+                <li>Celsius to Kelvin: c|C k|K</li>
+                <li>Farenheit to Celsius: f|F c|C</li>
+                <li>Farenheit to Kelvin: f|F k|K</li>
+                <li>Kelvin to Celsius: k|K c|C</li>
+                <li>Kelvin to Farenheit: k|K f|F</li>
+                <li>Meters to Inchs: m|M i|I</li>
+                <li>Inchs to Meters: i|I m|M</li>
+            </ul>
+            
+        </div>
+    </body>
 </html>

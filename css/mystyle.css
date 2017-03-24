@@ -5,24 +5,33 @@ th, td      {
             }  
 #converted  { color: red; font-weight: bold; font-size:large;          }     /* Calculated values in bold */
 input       {
-              text-align: right;       /* Align input to the right  */
+              text-align: left;       /* Align input to the right  */
               border: none;
               border-radius: 20px 20px 20px 20px;
               padding: 5px  5px;
-              font-size:large;       }
+              font-size:large;
+              margin-top: 0.5em;
+              margin-bottom: 0.5em;
+}
 body
 {
  background-color:#b0c4de;  /* blue */
  font-size:large;
- font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+ font-family: verdana;
 }
 
 h1 {
+    text-align: center;
     font-weight: normal;
-    font-family: "Brush Script MT", cursive;
+    font-family: verdana;
     background: #3C5681;
-    padding: 5px 15px;
+    padding: 10px 15px;
     color: white;
     display:inline-block;
     border-radius: 10px 10px 10px 10px;
+}
+
+.separador {
+    
+    margin: 1em 1em 1em 1em;
 }
